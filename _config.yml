@@ -9,17 +9,17 @@
 title: VocaLiST
 
 # Your name to show in the footer
-author: IPCV
+author: Anonymous
 
 # --- List of links in the navigation bar --- #
 
 navbar-links:
   Demos: "demos"
   Architecture: "architecture"
-  About us:
-    - Venkatesh S. Kadandale: "https://vskadandale.github.io"
-    - Juan F. Montesinos: "https://juanmontesinos.com"
-    - Gloria Haro: "https://www.upf.edu/web/gloria-haro"
+  #About us:
+  #  - Venkatesh S. Kadandale: "https://vskadandale.github.io"
+  #  - Juan F. Montesinos: "https://juanmontesinos.com"
+  #  - Gloria Haro: "https://www.upf.edu/web/gloria-haro"
 
 # --- Logo --- #
 
@@ -231,7 +231,7 @@ plugins:
   - jekyll-sitemap
 
 # Google Analytics
-google_analytics: G-1N9S38DY72
+google_analytics: G-YTJFCDFXZE
 
 
 # Beautiful Jekyll / Dean Attali
