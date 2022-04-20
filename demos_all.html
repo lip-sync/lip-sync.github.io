@@ -1,0 +1,1673 @@
+---
+layout: page
+---
+
+PRESS CTRL+SHIFT+R TO VIEW THE UPDATED PAGE.
+
+<p class="lead mb-0" align="justify">
+    Dear reader, the YouTube videos will start in the segment of interest. The only way to control the video is through
+    the "Play" and "Stop" buttons that we have provided. The recommended way of visualizing the demos is
+    to pay attention to the target singer's lip movements and then to listen to the estimated samples.
+    </br>
+    <b>Note: </b>Please be aware that, sometimes, the perceivable differences in the singing voice estimates
+    across different models are subtle.
+    We recommend the use of headphones when listening to them. We also would like to draw attention to the
+    spectrograms for visual cues that might better help perceive these differences.
+    </br>
+</p></br>
+<h1>Examples for Singing Voice Separation Application</h1>
+<p class="lead mb-0" align="justify">
+    Here, we show some demos of how our models perform in estimating the desired target voice
+    in real world videos (taken from YouTube).
+    Note that none of these singers were a part of the training set.
+</p>
+</br>
+<div class="row" style="padding-bottom: 1em">
+    <div class="column" style="padding-left: 1em; padding-right: 1em">
+        <h4>Isn't She Lovely (Sample 1)</h4>
+    </div>
+    <div class="column" style="padding-left: 1em">
+        <div class="videoplay" videoid="#isl1">
+            <button type="button" class="btn btn-outline-primary">Play</button>
+        </div>
+    </div>
+    <div class="column">
+        <div class="col-sm-3 videostop" videoid="#isl1">
+            <button type="button" class="btn btn-outline-primary">Stop</button>
+        </div>
+    </div>
+</div>
+<iframe id="isl1" class="isl1_video"
+        width="100%" height="345"
+        src="https://www.youtube.com/embed/cttFanV0o7c?start=49&end=57&showinfo=0&controls=0&enablejsapi=1&disablekb=1"
+        title="Isn't She Lovely Sample1" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</br>
+<div class="row">
+    <div class="border">
+        <div class="col">
+            <h5>Target Voice: Top-right Face</h5>
+        </div>
+        <div style="display: flex">
+            <div class="column" style="padding-left:0.9em;display: flex">
+                <div style="padding-top: 0.5em;display: flex">
+                    <div class="col-xs-1 excol3">
+                        <div class="src4_model">Mixture</div>
+                        <img class="spec"
+                             src="../estimated_demo/cttFanV0o7c_0_07_to_2_44/mix_top-right.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/cttFanV0o7c_0_07_to_2_44/mix_top-right.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 65px">Y-net-mr [1]</div>
+                        <img class="spec"
+                             src="../estimated_demo/cttFanV0o7c_0_07_to_2_44/y-net-mr7_top-right.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/cttFanV0o7c_0_07_to_2_44/y-net-mr7_top-right.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr-V (Ours)</div>
+                        <img class="spec"
+                             src="../estimated_demo/cttFanV0o7c_0_07_to_2_44/vocalist_top-right.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/cttFanV0o7c_0_07_to_2_44/vocalist_top-right.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</br>
+<div class="row" style="padding-bottom: 1em">
+    <div class="column" style="padding-left: 1em; padding-right: 1em">
+        <h4>Isn't She Lovely (Sample 2)</h4>
+    </div>
+    <div class="column" style="padding-left: 1em">
+        <div class="videoplay" style="display: inline-block" videoid="#isl2">
+            <button type="button" class="btn btn-outline-primary">Play</button>
+        </div>
+    </div>
+    <div class="column">
+        <div class="col-sm-3 videostop" videoid="#isl2">
+            <button type="button" class="btn btn-outline-primary">Stop</button>
+        </div>
+    </div>
+</div>
+<iframe id="isl2" class="isl2_video"
+        width="100%" height="345"
+        src="https://www.youtube.com/embed/cttFanV0o7c?start=39&end=43&showinfo=0&controls=0&enablejsapi=1&disablekb=1"
+        title="Isn't She Lovely Sample2" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</br>
+<div class="row">
+    <div class="border">
+        <div class="col">
+            <h5>Target Voice: Bottom-left Face</h5>
+        </div>
+        <div style="display: flex">
+            <div class="column" style="padding-left:0.9em;display: flex">
+                <div style="padding-top: 0.5em;display: flex">
+                    <div class="col-xs-1 excol3">
+                        <div class="src4_model">Mixture</div>
+                        <img class="spec"
+                             src="../estimated_demo/cttFanV0o7c_0_07_to_2_44/mix_bottom-left.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/cttFanV0o7c_0_07_to_2_44/mix_bottom-left.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div class="src4_model">Y-Net-mr [1]</div>
+                        <img class="spec"
+                             src="../estimated_demo/cttFanV0o7c_0_07_to_2_44/y-net-mr7_bottom-left.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/cttFanV0o7c_0_07_to_2_44/y-net-mr7_bottom-left.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr-V (Ours)</div>
+                        <img class="spec"
+                             src="../estimated_demo/cttFanV0o7c_0_07_to_2_44/vocalist.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/cttFanV0o7c_0_07_to_2_44/vocalist.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</br></br>
+<div class="row" style="padding-bottom: 1em">
+    <div class="column" style="padding-left: 1em; padding-right: 1em">
+        <h4>Paranoid Android</h4>
+    </div>
+    <div class="column" style="padding-left: 1em">
+        <div class="videoplay"  videoid="#pa">
+            <button type="button" class="btn btn-outline-primary">Play</button>
+        </div>
+    </div>
+    <div class="column">
+        <div class="col-sm-3 videostop"  videoid="#pa">
+            <button type="button" class="btn btn-outline-primary">Stop</button>
+        </div>
+    </div>
+</div>
+<iframe id="pa" class="pa_video"
+        width="100%" height="345"
+        src="https://www.youtube.com/embed/Gayh_GrCKgU?start=313&end=317&showinfo=0&controls=0&enablejsapi=1&disablekb=1"
+        title="Paranoid Android" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</br>
+
+<div class="row">
+    <div class="border">
+        <div class="col">
+            <h5>Target Voice: Bottom-center Face</h5>
+        </div>
+        <div style="display: flex">
+            <div class="column" style="padding-left:0.9em;display: flex">
+                <div style="padding-top: 0.5em;display: flex">
+                    <div class="col-xs-1 excol3">
+                        <div class="src4_model">Mixture</div>
+                        <img class="spec"
+                             src="../estimated_demo/Gayh_GrCKgU_5_11_to_5_35/mix_center.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/Gayh_GrCKgU_5_11_to_5_35/mix_center.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div class="src4_model">Y-Net-mr [1]</div>
+                        <img class="spec"
+                             src="../estimated_demo/Gayh_GrCKgU_5_11_to_5_35/y-net-mr7_center.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/Gayh_GrCKgU_5_11_to_5_35/y-net-mr7_center.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr-V (Ours)</div>
+                        <img class="spec"
+                             src="../estimated_demo/Gayh_GrCKgU_5_11_to_5_35/vocalist.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/Gayh_GrCKgU_5_11_to_5_35/vocalist.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</br></br>
+<div class="row" style="padding-bottom: 1em">
+    <div class="column" style="padding-left: 1em; padding-right: 1em">
+        <h4>Disney Medley</h4>
+    </div>
+    <div class="column" style="padding-left: 1em">
+        <div class="videoplay" videoid="#dm">
+            <button type="button" class="btn btn-outline-primary">Play</button>
+        </div>
+    </div>
+    <div class="column">
+        <div class="col-sm-3 videostop"  videoid="#dm">
+            <button type="button" class="btn btn-outline-primary">Stop</button>
+        </div>
+    </div>
+</div>
+<iframe id="dm" class="dm_video"
+        width="100%" height="345"
+        src="https://www.youtube.com/embed/Dyo7jzaCUhk?start=44&end=52&showinfo=0&controls=0&enablejsapi=1&disablekb=1"
+        title="Disney Medley" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</br>
+<div class="row">
+    <div class="border">
+        <div class="col">
+            <h5>Target Voice: Center Face</h5>
+        </div>
+        <div style="display: flex">
+            <div class="column" style="padding-left:0.9em;display: flex">
+                <div style="padding-top: 0.5em;display: flex">
+                    <div class="col-xs-1 excol3">
+                        <div class="src4_model">Mixture</div>
+                        <img class="spec"
+                             src="../estimated_demo/Dyo7jzaCUhk_0_02_to_5_2/mix_center.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/Dyo7jzaCUhk_0_02_to_5_2/mix_center.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr [1]</div>
+                        <img class="spec"
+                             src="../estimated_demo/Dyo7jzaCUhk_0_02_to_5_2/y-net-mr7_center.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/Dyo7jzaCUhk_0_02_to_5_2/y-net-mr7_center.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr-V (Ours)</div>
+                        <img class="spec"
+                             src="../estimated_demo/Dyo7jzaCUhk_0_02_to_5_2/vocalist.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/Dyo7jzaCUhk_0_02_to_5_2/vocalist.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</br></br>
+<div class="row" style="padding-bottom: 1em">
+    <div class="column" style="padding-left: 1em; padding-right: 1em">
+        <h4>Queen Medley</h4>
+    </div>
+    <div class="column" style="padding-left: 1em">
+        <div class="videoplay" videoid="#qm">
+            <button type="button" class="btn btn-outline-primary">Play</button>
+        </div>
+    </div>
+    <div class="column">
+        <div class="col-sm-3 videostop"  videoid="#qm">
+            <button type="button" class="btn btn-outline-primary">Stop</button>
+        </div>
+    </div>
+</div>
+<iframe id="qm" class="qm_video"
+        width="100%" height="345"
+        src="https://www.youtube.com/embed/sEnTMgzw8ow?start=131&end=143&showinfo=0&controls=0&enablejsapi=1&disablekb=1"
+        title="Queen Medley" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</br>
+<div class="row">
+    <div class="border">
+        <div class="col">
+            <h5>Target Voice: Center Face</h5>
+        </div>
+        <div style="display: flex">
+            <div class="column" style="padding-left:0.9em;display: flex">
+                <div style="padding-top: 0.5em;display: flex">
+                    <div class="col-xs-1 excol3">
+                        <div class="src4_model">Mixture</div>
+                        <img class="spec"
+                             src="../estimated_demo/sEnTMgzw8ow_2_11_to_2_33/mix.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/sEnTMgzw8ow_2_11_to_2_33/mix.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr [1]</div>
+                        <img class="spec"
+                             src="../estimated_demo/sEnTMgzw8ow_2_11_to_2_33/y-net-mr7.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/sEnTMgzw8ow_2_11_to_2_33/y-net-mr7.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr-V (Ours)</div>
+                        <img class="spec"
+                             src="../estimated_demo/sEnTMgzw8ow_2_11_to_2_33/y-net-g7.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/sEnTMgzw8ow_2_11_to_2_33/y-net-g7.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</br></br>
+<div class="row" style="padding-bottom: 1em">
+    <div class="column" style="padding-left: 1em; padding-right: 1em">
+        <h4>Bad Guy</h4>
+    </div>
+    <div class="column" style="padding-left: 1em">
+        <div class="videoplay" videoid="#bg">
+            <button type="button" class="btn btn-outline-primary">Play</button>
+        </div>
+    </div>
+    <div class="column">
+        <div class="col-sm-3 videostop"  videoid="#bg">
+            <button type="button" class="btn btn-outline-primary">Stop</button>
+        </div>
+    </div>
+</div>
+<iframe id="bg" class="bg_video"
+        width="100%" height="345"
+        src="https://www.youtube.com/embed/pRh9rKd2j64?start=30&end=42&showinfo=0&controls=0&enablejsapi=1&disablekb=1"
+        title="Bad Guy" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</br>
+
+<div class="row">
+    <div class="border">
+        <div class="col">
+            <h5>Target Voice: Female Singer</h5>
+        </div>
+        <div style="display: flex">
+            <div class="column" style="padding-left:0.9em;display: flex">
+                <div style="padding-top: 0.5em;display: flex">
+                    <div class="col-xs-1 excol3">
+                        <div class="src4_model">Mixture</div>
+                        <img class="spec"
+                             src="../estimated_demo/pRh9rKd2j64_0_15_to_0_55/mix.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/pRh9rKd2j64_0_15_to_0_55/mix.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr [1]</div>
+                        <img class="spec"
+                             src="../estimated_demo/pRh9rKd2j64_0_15_to_0_55/y-net-mr7.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/pRh9rKd2j64_0_15_to_0_55/y-net-mr7.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr-V (Ours)</div>
+                        <img class="spec"
+                             src="../estimated_demo/pRh9rKd2j64_0_15_to_0_55/vocalist.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/pRh9rKd2j64_0_15_to_0_55/vocalist.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</br></br>
+
+<h1>Our Multi-voice Montage</h1>
+</br>
+<div class="row" style="padding-bottom: 1em">
+    <div class="column" style="padding-left: 1em; padding-right: 1em">
+        <h4>The Circle Of Life</h4>
+    </div>
+    <div class="column" style="padding-left: 1em">
+        <div class="videoplay" videoid="#tcol">
+            <button type="button" class="btn btn-outline-primary">Play</button>
+        </div>
+    </div>
+    <div class="column">
+        <div class="col-sm-3 videostop" videoid="#tcol">
+            <button type="button" class="btn btn-outline-primary">Stop</button>
+        </div>
+    </div>
+</div>
+<iframe id="tcol" class="tcol_video"
+        width="100%" height="345"
+        src="https://www.youtube.com/embed/XvBOH8FGias?start=175&end=187&showinfo=0&controls=0&enablejsapi=1&disablekb=1"
+        title="The circle of life" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</br>
+<div class="row">
+    <div class="border">
+        <div style="display: flex">
+            <div class="column" style="padding-left:0.9em;display: flex">
+                <div style="padding-top: 0.5em;display: flex">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="border">
+        <div class="col">
+            <h5>Target Voice: Rafiki (Bottom-center Face)</h5>
+        </div>
+        <div style="display: flex">
+            <div class="column" style="padding-left:0.9em;display: flex">
+                <div style="padding-top: 0.5em;display: flex">
+                    <div class="col-xs-1 excol3">
+                        <div class="src4_model">Mixture</div>
+                        <img class="spec"
+                             src="../estimated_demo/tcol/mix.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/tcol/mix.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div class="src4_model">Ground truth</div>
+                        <img class="spec"
+                             src="../estimated_demo/tcol/gt_rafiki.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/tcol/gt_rafiki.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr [1]</div>
+                        <img class="spec"
+                             src="../estimated_demo/tcol/y-net-mr7_rafiki.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/tcol/y-net-mr7_rafiki.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr-V (Ours)</div>
+                        <img class="spec"
+                             src="../estimated_demo/tcol/vocalist.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/tcol/vocalist.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</br></br>
+
+<h1>Unision Example</h1>
+</br>
+<div class="row" style="padding-bottom: 1em">
+    <div class="column" style="padding-left: 1em; padding-right: 1em">
+        <h4>Male-Female Acappella Duet</h4>
+    </div>
+    <div class="column" style="padding-left: 1em">
+        <div class="videoplay" videoid="#mfad">
+            <button type="button" class="btn btn-outline-primary">Play</button>
+        </div>
+    </div>
+    <div class="column">
+        <div class="col-sm-3 videostop" videoid="#mfad">
+            <button type="button" class="btn btn-outline-primary">Stop</button>
+        </div>
+    </div>
+</div>
+<iframe id="mfad" class="mfad_video"
+        width="100%" height="345"
+        src="https://www.youtube.com/embed/SNgnylGkerE?start=15&end=19&showinfo=0&controls=0&enablejsapi=1&disablekb=1"
+        title="Safe and Sound" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</br>
+<div class="row">
+    <div class="border">
+        <div class="col">
+            <h5>Target Voice: Male Singer (left)</h5>
+        </div>
+        <div style="display: flex">
+            <div class="column" style="padding-left:0.9em;display: flex">
+                <div style="padding-top: 0.5em;display: flex">
+                    <div class="col-xs-1 excol3">
+                        <div class="src4_model">Mixture</div>
+                        <img class="spec"
+                             src="../estimated_demo/SNgnylGkerE_0_15_to_0_2/mix.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/SNgnylGkerE_0_15_to_0_2/mix.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr [1]</div>
+                        <img class="spec"
+                             src="../estimated_demo/SNgnylGkerE_0_15_to_0_2/y-net-mr7_male.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/SNgnylGkerE_0_15_to_0_2/y-net-mr7_male.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr-V (Ours)</div>
+                        <img class="spec"
+                             src="../estimated_demo/SNgnylGkerE_0_15_to_0_2/vocalist.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/SNgnylGkerE_0_15_to_0_2/vocalist.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</br></br>
+
+<div class="row" style="padding-bottom: 1em">
+    <div class="column" style="padding-left: 1em; padding-right: 1em">
+        <h4>Queen #2</h4>
+    </div>
+    <div class="column" style="padding-left: 1em">
+        <div class="videoplay" videoid="#q2">
+            <button type="button" class="btn btn-outline-primary">Play</button>
+        </div>
+    </div>
+    <div class="column">
+        <div class="col-sm-3 videostop" videoid="#q2">
+            <button type="button" class="btn btn-outline-primary">Stop</button>
+        </div>
+    </div>
+</div>
+<iframe id="q2" class="q2_video"
+        width="100%" height="345"
+        src="https://www.youtube.com/embed/sEnTMgzw8ow?start=96&end=100&showinfo=0&controls=0&enablejsapi=1&disablekb=1"
+        title="Queen Medley 2" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</br>
+<div class="row">
+    <div class="border">
+        <div class="col">
+            <h5>Target Voice: Lead Singer (center)</h5>
+        </div>
+        <div style="display: flex">
+            <div class="column" style="padding-left:0.9em;display: flex">
+                <div style="padding-top: 0.5em;display: flex">
+                    <div class="col-xs-1 excol3">
+                        <div class="src4_model">Mixture</div>
+                        <img class="spec"
+                             src="../estimated_demo/sEnTMgzw8ow_1_29_to_1_47/mix_mod.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/sEnTMgzw8ow_1_29_to_1_47/mix_mod.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr [1]</div>
+                        <img class="spec"
+                             src="../estimated_demo/sEnTMgzw8ow_1_29_to_1_47/y-net-mr7_mod.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/sEnTMgzw8ow_1_29_to_1_47/y-net-mr7_mod.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr-V (Ours)</div>
+                        <img class="spec"
+                             src="../estimated_demo/sEnTMgzw8ow_1_29_to_1_47/vocalist_mod.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/sEnTMgzw8ow_1_29_to_1_47/vocalist_mod.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br></br>
+<div class="row" style="padding-bottom: 1em">
+    <div class="column" style="padding-left: 1em; padding-right: 1em">
+        <h4>Queen #3</h4>
+    </div>
+    <div class="column" style="padding-left: 1em">
+        <div class="videoplay" videoid="#q3">
+            <button type="button" class="btn btn-outline-primary">Play</button>
+        </div>
+    </div>
+    <div class="column">
+        <div class="col-sm-3 videostop" videoid="#q3">
+            <button type="button" class="btn btn-outline-primary">Stop</button>
+        </div>
+    </div>
+</div>
+<iframe id="q3" class="q3_video"
+        width="100%" height="345"
+        src="https://www.youtube.com/embed/sEnTMgzw8ow?start=110&end=122&showinfo=0&controls=0&enablejsapi=1&disablekb=1"
+        title="Queen Medley 3" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</br>
+<div class="row">
+    <div class="border">
+        <div class="col">
+            <h5>Target Voice: Lead Singer (top-left)</h5>
+        </div>
+        <div style="display: flex">
+            <div class="column" style="padding-left:0.9em;display: flex">
+                <div style="padding-top: 0.5em;display: flex">
+                    <div class="col-xs-1 excol3">
+                        <div class="src4_model">Mixture</div>
+                        <img class="spec"
+                             src="../estimated_demo/sEnTMgzw8ow_1_5_to_2_07/mix.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/sEnTMgzw8ow_1_5_to_2_07/mix.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr [1]</div>
+                        <img class="spec"
+                             src="../estimated_demo/sEnTMgzw8ow_1_5_to_2_07/y-net-mr7.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/sEnTMgzw8ow_1_5_to_2_07/y-net-mr7.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr-V (Ours)</div>
+                        <img class="spec"
+                             src="../estimated_demo/sEnTMgzw8ow_1_5_to_2_07/vocalist.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/sEnTMgzw8ow_1_5_to_2_07/vocalist.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br></br>
+<div class="row" style="padding-bottom: 1em">
+    <div class="column" style="padding-left: 1em; padding-right: 1em">
+        <h4>Queen #4</h4>
+    </div>
+    <div class="column" style="padding-left: 1em">
+        <div class="videoplay" videoid="#q4">
+            <button type="button" class="btn btn-outline-primary">Play</button>
+        </div>
+    </div>
+    <div class="column">
+        <div class="col-sm-3 videostop" videoid="#q4">
+            <button type="button" class="btn btn-outline-primary">Stop</button>
+        </div>
+    </div>
+</div>
+<iframe id="q4" class="q4_video"
+        width="100%" height="345"
+        src="https://www.youtube.com/embed/sEnTMgzw8ow?start=164&end=170&showinfo=0&controls=0&enablejsapi=1&disablekb=1"
+        title="Queen Medley 4" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</br>
+<div class="row">
+    <div class="border">
+        <div class="col">
+            <h5>Target Voice: Lead Singer (top-right)</h5>
+        </div>
+        <div style="display: flex">
+            <div class="column" style="padding-left:0.9em;display: flex">
+                <div style="padding-top: 0.5em;display: flex">
+                    <div class="col-xs-1 excol3">
+                        <div class="src4_model">Mixture</div>
+                        <img class="spec"
+                             src="../estimated_demo/sEnTMgzw8ow_2_38_to_2_53/mix_mod.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/sEnTMgzw8ow_2_38_to_2_53/mix_mod.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr [1]</div>
+                        <img class="spec"
+                             src="../estimated_demo/sEnTMgzw8ow_2_38_to_2_53/y-net-mr7_mod.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/sEnTMgzw8ow_2_38_to_2_53/y-net-mr7_mod.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr-V (Ours)</div>
+                        <img class="spec"
+                             src="../estimated_demo/sEnTMgzw8ow_2_38_to_2_53/vocalist_mod.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/sEnTMgzw8ow_2_38_to_2_53/vocalist_mod.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br></br>
+<div class="row" style="padding-bottom: 1em">
+    <div class="column" style="padding-left: 1em; padding-right: 1em">
+        <h4>Queen #5</h4>
+    </div>
+    <div class="column" style="padding-left: 1em">
+        <div class="videoplay" videoid="#q5">
+            <button type="button" class="btn btn-outline-primary">Play</button>
+        </div>
+    </div>
+    <div class="column">
+        <div class="col-sm-3 videostop" videoid="#q5">
+            <button type="button" class="btn btn-outline-primary">Stop</button>
+        </div>
+    </div>
+</div>
+<iframe id="q5" class="q5_video"
+        width="100%" height="345"
+        src="https://www.youtube.com/embed/sEnTMgzw8ow?start=34&end=38&showinfo=0&controls=0&enablejsapi=1&disablekb=1"
+        title="Queen Medley 4" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</br>
+<div class="row">
+    <div class="border">
+        <div class="col">
+            <h5>Target Voice: Lead Singer (center)</h5>
+        </div>
+        <div style="display: flex">
+            <div class="column" style="padding-left:0.9em;display: flex">
+                <div style="padding-top: 0.5em;display: flex">
+                    <div class="col-xs-1 excol3">
+                        <div class="src4_model">Mixture</div>
+                        <img class="spec"
+                             src="../estimated_demo/sEnTMgzw8ow_0_34_to_0_39/mix.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/sEnTMgzw8ow_0_34_to_0_39/mix.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr [1]</div>
+                        <img class="spec"
+                             src="../estimated_demo/sEnTMgzw8ow_0_34_to_0_39/y-net-mr7.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/sEnTMgzw8ow_0_34_to_0_39/y-net-mr7.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr-V (Ours)</div>
+                        <img class="spec"
+                             src="../estimated_demo/sEnTMgzw8ow_0_34_to_0_39/vocalist.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/sEnTMgzw8ow_0_34_to_0_39/vocalist.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br></br>
+<div class="row" style="padding-bottom: 1em">
+    <div class="column" style="padding-left: 1em; padding-right: 1em">
+        <h4>Jackson5 Cover #1</h4>
+    </div>
+    <div class="column" style="padding-left: 1em">
+        <div class="videoplay" videoid="#jk51">
+            <button type="button" class="btn btn-outline-primary">Play</button>
+        </div>
+    </div>
+    <div class="column">
+        <div class="col-sm-3 videostop" videoid="#jk51">
+            <button type="button" class="btn btn-outline-primary">Stop</button>
+        </div>
+    </div>
+</div>
+<iframe id="jk51" class="jk51_video"
+        width="100%" height="345"
+        src="https://www.youtube.com/embed/vyu3HU3XWi4?start=124&end=132&showinfo=0&controls=0&enablejsapi=1&disablekb=1"
+        title="Jackson5 Cover" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</br>
+<div class="row">
+    <div class="border">
+        <div class="col">
+            <h5>Target Voice: Lead Singer (center)</h5>
+        </div>
+        <div style="display: flex">
+            <div class="column" style="padding-left:0.9em;display: flex">
+                <div style="padding-top: 0.5em;display: flex">
+                    <div class="col-xs-1 excol3">
+                        <div class="src4_model">Mixture</div>
+                        <img class="spec"
+                             src="../estimated_demo/vyu3HU3XWi4_2_04_to_2_14/mix.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/vyu3HU3XWi4_2_04_to_2_14/mix.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr [1]</div>
+                        <img class="spec"
+                             src="../estimated_demo/vyu3HU3XWi4_2_04_to_2_14/y-net-mr7.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/vyu3HU3XWi4_2_04_to_2_14/y-net-mr7.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr-V (Ours)</div>
+                        <img class="spec"
+                             src="../estimated_demo/vyu3HU3XWi4_2_04_to_2_14/vocalist.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/vyu3HU3XWi4_2_04_to_2_14/vocalist.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<br></br>
+<div class="row" style="padding-bottom: 1em">
+    <div class="column" style="padding-left: 1em; padding-right: 1em">
+        <h4>Jackson5 Cover #2</h4>
+    </div>
+    <div class="column" style="padding-left: 1em">
+        <div class="videoplay" videoid="#jk52">
+            <button type="button" class="btn btn-outline-primary">Play</button>
+        </div>
+    </div>
+    <div class="column">
+        <div class="col-sm-3 videostop" videoid="#jk52">
+            <button type="button" class="btn btn-outline-primary">Stop</button>
+        </div>
+    </div>
+</div>
+<iframe id="jk52" class="jk52_video"
+        width="100%" height="345"
+        src="https://www.youtube.com/embed/vyu3HU3XWi4?start=106&end=110&showinfo=0&controls=0&enablejsapi=1&disablekb=1"
+        title="Jackson5 Cover" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</br>
+<div class="row">
+    <div class="border">
+        <div class="col">
+            <h5>Target Voice: Lead Singer (center)</h5>
+        </div>
+        <div style="display: flex">
+            <div class="column" style="padding-left:0.9em;display: flex">
+                <div style="padding-top: 0.5em;display: flex">
+                    <div class="col-xs-1 excol3">
+                        <div class="src4_model">Mixture</div>
+                        <img class="spec"
+                             src="../estimated_demo/vyu3HU3XWi4_1_46_to_1_51/mix.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/vyu3HU3XWi4_1_46_to_1_51/mix.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr [1]</div>
+                        <img class="spec"
+                             src="../estimated_demo/vyu3HU3XWi4_1_46_to_1_51/y-net-mr7.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/vyu3HU3XWi4_1_46_to_1_51/y-net-mr7.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr-V (Ours)</div>
+                        <img class="spec"
+                             src="../estimated_demo/vyu3HU3XWi4_1_46_to_1_51/vocalist.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/vyu3HU3XWi4_1_46_to_1_51/vocalist.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br></br>
+<div class="row" style="padding-bottom: 1em">
+    <div class="column" style="padding-left: 1em; padding-right: 1em">
+        <h4>French Song</h4>
+    </div>
+    <div class="column" style="padding-left: 1em">
+        <div class="videoplay" videoid="#fs">
+            <button type="button" class="btn btn-outline-primary">Play</button>
+        </div>
+    </div>
+    <div class="column">
+        <div class="col-sm-3 videostop" videoid="#fs">
+            <button type="button" class="btn btn-outline-primary">Stop</button>
+        </div>
+    </div>
+</div>
+<iframe id="fs" class="fs_video"
+        width="100%" height="345"
+        src="https://www.youtube.com/embed/it6Ud6PDPes?start=142&end=146&showinfo=0&controls=0&enablejsapi=1&disablekb=1"
+        title="French Song" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</br>
+<div class="row">
+    <div class="border">
+        <div class="col">
+            <h5>Target Voice: Lead Singer (center)</h5>
+        </div>
+        <div style="display: flex">
+            <div class="column" style="padding-left:0.9em;display: flex">
+                <div style="padding-top: 0.5em;display: flex">
+                    <div class="col-xs-1 excol3">
+                        <div class="src4_model">Mixture</div>
+                        <img class="spec"
+                             src="../estimated_demo/it6Ud6PDPes_2_22_to_2_27/mix.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/it6Ud6PDPes_2_22_to_2_27/mix.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr [1]</div>
+                        <img class="spec"
+                             src="../estimated_demo/it6Ud6PDPes_2_22_to_2_27/y-net-mr7.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/it6Ud6PDPes_2_22_to_2_27/y-net-mr7.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr-V (Ours)</div>
+                        <img class="spec"
+                             src="../estimated_demo/it6Ud6PDPes_2_22_to_2_27/vocalist.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/it6Ud6PDPes_2_22_to_2_27/vocalist.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br></br>
+<div class="row" style="padding-bottom: 1em">
+    <div class="column" style="padding-left: 1em; padding-right: 1em">
+        <h4>Beatbox Example</h4>
+    </div>
+    <div class="column" style="padding-left: 1em">
+        <div class="videoplay" videoid="#bbox">
+            <button type="button" class="btn btn-outline-primary">Play</button>
+        </div>
+    </div>
+    <div class="column">
+        <div class="col-sm-3 videostop" videoid="#bbox">
+            <button type="button" class="btn btn-outline-primary">Stop</button>
+        </div>
+    </div>
+</div>
+<iframe id="bbox" class="bbox_video"
+        width="100%" height="345"
+        src="https://www.youtube.com/embed/WikcPREx0DM?start=132&end=136&showinfo=0&controls=0&enablejsapi=1&disablekb=1"
+        title="Beatbox Song" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</br>
+<div class="row">
+    <div class="border">
+        <div class="col">
+            <h5>Target Voice: Beatbox</h5>
+        </div>
+        <div style="display: flex">
+            <div class="column" style="padding-left:0.9em;display: flex">
+                <div style="padding-top: 0.5em;display: flex">
+                    <div class="col-xs-1 excol3">
+                        <div class="src4_model">Mixture</div>
+                        <img class="spec"
+                             src="../estimated_demo/WikcPREx0DM_2_12_to_2_17/mix.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/WikcPREx0DM_2_12_to_2_17/mix.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr [1]</div>
+                        <img class="spec"
+                             src="../estimated_demo/WikcPREx0DM_2_12_to_2_17/y-net-mr7.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/WikcPREx0DM_2_12_to_2_17/y-net-mr7.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr-V (Ours)</div>
+                        <img class="spec"
+                             src="../estimated_demo/WikcPREx0DM_2_12_to_2_17/vocalist.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/WikcPREx0DM_2_12_to_2_17/vocalist.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br></br>
+
+
+<div class="row" style="padding-bottom: 1em">
+    <div class="column" style="padding-left: 1em; padding-right: 1em">
+        <h4>Uptown Girl #1</h4>
+    </div>
+    <div class="column" style="padding-left: 1em">
+        <div class="videoplay" videoid="#ug1">
+            <button type="button" class="btn btn-outline-primary">Play</button>
+        </div>
+    </div>
+    <div class="column">
+        <div class="col-sm-3 videostop" videoid="#ug1">
+            <button type="button" class="btn btn-outline-primary">Stop</button>
+        </div>
+    </div>
+</div>
+<iframe id="ug1" class="ug1_video"
+        width="100%" height="345"
+        src="https://www.youtube.com/embed/q9vqt-lwy3I?start=30&end=34&showinfo=0&controls=0&enablejsapi=1&disablekb=1"
+        title="Uptown Girl #1" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</br>
+<div class="row">
+    <div class="border">
+        <div class="col">
+            <h5>Target Voice: Lead voice (center)</h5>
+        </div>
+        <div style="display: flex">
+            <div class="column" style="padding-left:0.9em;display: flex">
+                <div style="padding-top: 0.5em;display: flex">
+                    <div class="col-xs-1 excol3">
+                        <div class="src4_model">Mixture</div>
+                        <img class="spec"
+                             src="../estimated_demo/q9vqt-lwy3I_0_29_to_0_36/mix.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/q9vqt-lwy3I_0_29_to_0_36/mix.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr [1]</div>
+                        <img class="spec"
+                             src="../estimated_demo/q9vqt-lwy3I_0_29_to_0_36/y-net-mr7.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/q9vqt-lwy3I_0_29_to_0_36/y-net-mr7.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr-V (Ours)</div>
+                        <img class="spec"
+                             src="../estimated_demo/q9vqt-lwy3I_0_29_to_0_36/vocalist.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/q9vqt-lwy3I_0_29_to_0_36/vocalist.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br></br>
+
+
+<div class="row" style="padding-bottom: 1em">
+    <div class="column" style="padding-left: 1em; padding-right: 1em">
+        <h4>Uptown Girl #2</h4>
+    </div>
+    <div class="column" style="padding-left: 1em">
+        <div class="videoplay" videoid="#ug2">
+            <button type="button" class="btn btn-outline-primary">Play</button>
+        </div>
+    </div>
+    <div class="column">
+        <div class="col-sm-3 videostop" videoid="#ug2">
+            <button type="button" class="btn btn-outline-primary">Stop</button>
+        </div>
+    </div>
+</div>
+<iframe id="ug2" class="ug2_video"
+        width="100%" height="345"
+        src="https://www.youtube.com/embed/q9vqt-lwy3I?start=94&end=103&showinfo=0&controls=0&enablejsapi=1&disablekb=1"
+        title="Uptown Girl #2" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</br>
+<div class="row">
+    <div class="border">
+        <div class="col">
+            <h5>Target Voice: Lead voice (center)</h5>
+        </div>
+        <div style="display: flex">
+            <div class="column" style="padding-left:0.9em;display: flex">
+                <div style="padding-top: 0.5em;display: flex">
+                    <div class="col-xs-1 excol3">
+                        <div class="src4_model">Mixture</div>
+                        <img class="spec"
+                             src="../estimated_demo/q9vqt-lwy3I_1_33_to_1_43/mix.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/q9vqt-lwy3I_1_33_to_1_43/mix.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr [1]</div>
+                        <img class="spec"
+                             src="../estimated_demo/q9vqt-lwy3I_1_33_to_1_43/y-net-mr7.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/q9vqt-lwy3I_1_33_to_1_43/y-net-mr7.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr-V (Ours)</div>
+                        <img class="spec"
+                             src="../estimated_demo/q9vqt-lwy3I_1_33_to_1_43/vocalist.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/q9vqt-lwy3I_1_33_to_1_43/vocalist.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br></br>
+
+
+<div class="row" style="padding-bottom: 1em">
+    <div class="column" style="padding-left: 1em; padding-right: 1em">
+        <h4>Somebody To Love (Female)</h4>
+    </div>
+    <div class="column" style="padding-left: 1em">
+        <div class="videoplay" videoid="#stlf">
+            <button type="button" class="btn btn-outline-primary">Play</button>
+        </div>
+    </div>
+    <div class="column">
+        <div class="col-sm-3 videostop" videoid="#stlf">
+            <button type="button" class="btn btn-outline-primary">Stop</button>
+        </div>
+    </div>
+</div>
+<iframe id="stlf" class="stlf_video"
+        width="100%" height="345"
+        src="https://www.youtube.com/embed/BtuwsjeN7Pk?start=264&end=268&showinfo=0&controls=0&enablejsapi=1&disablekb=1"
+        title="Somebody To Love (Female)" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</br>
+<div class="row">
+    <div class="border">
+        <div class="col">
+            <h5>Target Voice: Lead voice (center)</h5>
+        </div>
+        <div style="display: flex">
+            <div class="column" style="padding-left:0.9em;display: flex">
+                <div style="padding-top: 0.5em;display: flex">
+                    <div class="col-xs-1 excol3">
+                        <div class="src4_model">Mixture</div>
+                        <img class="spec"
+                             src="../estimated_demo/BtuwsjeN7Pk_4_22_to_4_28/mix.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/BtuwsjeN7Pk_4_22_to_4_28/mix.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr [1]</div>
+                        <img class="spec"
+                             src="../estimated_demo/BtuwsjeN7Pk_4_22_to_4_28/y-net-mr7.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/BtuwsjeN7Pk_4_22_to_4_28/y-net-mr7.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr-V (Ours)</div>
+                        <img class="spec"
+                             src="../estimated_demo/BtuwsjeN7Pk_4_22_to_4_28/vocalist.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/BtuwsjeN7Pk_4_22_to_4_28/vocalist.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br></br>
+
+<div class="row" style="padding-bottom: 1em">
+    <div class="column" style="padding-left: 1em; padding-right: 1em">
+        <h4>Aretha Franklin - Respect #1</h4>
+    </div>
+    <div class="column" style="padding-left: 1em">
+        <div class="videoplay" videoid="#afr1">
+            <button type="button" class="btn btn-outline-primary">Play</button>
+        </div>
+    </div>
+    <div class="column">
+        <div class="col-sm-3 videostop" videoid="#afr1">
+            <button type="button" class="btn btn-outline-primary">Stop</button>
+        </div>
+    </div>
+</div>
+<iframe id="afr1" class="afr1_video"
+        width="100%" height="345"
+        src="https://www.youtube.com/embed/kce_zDH-OVA?start=46&end=50&showinfo=0&controls=0&enablejsapi=1&disablekb=1"
+        title="Aretha Franklin - Respect #1" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</br>
+<div class="row">
+    <div class="border">
+        <div class="col">
+            <h5>Target Voice: Lead voice (center)</h5>
+        </div>
+        <div style="display: flex">
+            <div class="column" style="padding-left:0.9em;display: flex">
+                <div style="padding-top: 0.5em;display: flex">
+                    <div class="col-xs-1 excol3">
+                        <div class="src4_model">Mixture</div>
+                        <img class="spec"
+                             src="../estimated_demo/kce_zDH-OVA_0_43_to_0_5/mix.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/kce_zDH-OVA_0_43_to_0_5/mix.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr [1]</div>
+                        <img class="spec"
+                             src="../estimated_demo/kce_zDH-OVA_0_43_to_0_5/y-net-mr7.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/kce_zDH-OVA_0_43_to_0_5/y-net-mr7.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr-V (Ours)</div>
+                        <img class="spec"
+                             src="../estimated_demo/kce_zDH-OVA_0_43_to_0_5/vocalist.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/kce_zDH-OVA_0_43_to_0_5/vocalist.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br></br>
+
+
+<div class="row" style="padding-bottom: 1em">
+    <div class="column" style="padding-left: 1em; padding-right: 1em">
+        <h4>Aretha Franklin - Respect #2</h4>
+    </div>
+    <div class="column" style="padding-left: 1em">
+        <div class="videoplay" videoid="#afr2">
+            <button type="button" class="btn btn-outline-primary">Play</button>
+        </div>
+    </div>
+    <div class="column">
+        <div class="col-sm-3 videostop" videoid="#afr2">
+            <button type="button" class="btn btn-outline-primary">Stop</button>
+        </div>
+    </div>
+</div>
+<iframe id="afr2" class="afr1_video"
+        width="100%" height="345"
+        src="https://www.youtube.com/embed/kce_zDH-OVA?start=102&end=110&showinfo=0&controls=0&enablejsapi=1&disablekb=1"
+        title="Aretha Franklin - Respect #2" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</br>
+<div class="row">
+    <div class="border">
+        <div class="col">
+            <h5>Target Voice: Lead voice (center)</h5>
+        </div>
+        <div style="display: flex">
+            <div class="column" style="padding-left:0.9em;display: flex">
+                <div style="padding-top: 0.5em;display: flex">
+                    <div class="col-xs-1 excol3">
+                        <div class="src4_model">Mixture</div>
+                        <img class="spec"
+                             src="../estimated_demo/kce_zDH-OVA_1_42_to_1_5/mix.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/kce_zDH-OVA_1_42_to_1_5/mix.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr [1]</div>
+                        <img class="spec"
+                             src="../estimated_demo/kce_zDH-OVA_1_42_to_1_5/y-net-mr7.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/kce_zDH-OVA_1_42_to_1_5/y-net-mr7.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr-V (Ours)</div>
+                        <img class="spec"
+                             src="../estimated_demo/kce_zDH-OVA_1_42_to_1_5/vocalist.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/kce_zDH-OVA_1_42_to_1_5/vocalist.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br></br>
+
+
+<div class="row" style="padding-bottom: 1em">
+    <div class="column" style="padding-left: 1em; padding-right: 1em">
+        <h4>Aretha Franklin - Respect #3</h4>
+    </div>
+    <div class="column" style="padding-left: 1em">
+        <div class="videoplay" videoid="#afr3">
+            <button type="button" class="btn btn-outline-primary">Play</button>
+        </div>
+    </div>
+    <div class="column">
+        <div class="col-sm-3 videostop" videoid="#afr3">
+            <button type="button" class="btn btn-outline-primary">Stop</button>
+        </div>
+    </div>
+</div>
+<iframe id="afr3" class="afr3_video"
+        width="100%" height="345"
+        src="https://www.youtube.com/embed/kce_zDH-OVA?start=137&end=149&showinfo=0&controls=0&enablejsapi=1&disablekb=1"
+        title="Aretha Franklin - Respect #3" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</br>
+<div class="row">
+    <div class="border">
+        <div class="col">
+            <h5>Target Voice: Lead voice (center)</h5>
+        </div>
+        <div style="display: flex">
+            <div class="column" style="padding-left:0.9em;display: flex">
+                <div style="padding-top: 0.5em;display: flex">
+                    <div class="col-xs-1 excol3">
+                        <div class="src4_model">Mixture</div>
+                        <img class="spec"
+                             src="../estimated_demo/kce_zDH-OVA_2_09_to_2_3/mix.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/kce_zDH-OVA_2_09_to_2_3/mix.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr [1]</div>
+                        <img class="spec"
+                             src="../estimated_demo/kce_zDH-OVA_2_09_to_2_3/y-net-mr7.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/kce_zDH-OVA_2_09_to_2_3/y-net-mr7.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr-V (Ours)</div>
+                        <img class="spec"
+                             src="../estimated_demo/kce_zDH-OVA_2_09_to_2_3/vocalist.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/kce_zDH-OVA_2_09_to_2_3/vocalist.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br></br>
+
+
+<div class="row" style="padding-bottom: 1em">
+    <div class="column" style="padding-left: 1em; padding-right: 1em">
+        <h4>Good Vibrations</h4>
+    </div>
+    <div class="column" style="padding-left: 1em">
+        <div class="videoplay" videoid="#gv">
+            <button type="button" class="btn btn-outline-primary">Play</button>
+        </div>
+    </div>
+    <div class="column">
+        <div class="col-sm-3 videostop" videoid="#gv">
+            <button type="button" class="btn btn-outline-primary">Stop</button>
+        </div>
+    </div>
+</div>
+<iframe id="gv" class="gv_video"
+        width="100%" height="345"
+        src="https://www.youtube.com/embed/hWCkCSO8h9I?start=40&end=44&showinfo=0&controls=0&enablejsapi=1&disablekb=1"
+        title="Good Vibrations" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</br>
+<div class="row">
+    <div class="border">
+        <div class="col">
+            <h5>Target Voice: Lead voice (bottom-left)</h5>
+        </div>
+        <div style="display: flex">
+            <div class="column" style="padding-left:0.9em;display: flex">
+                <div style="padding-top: 0.5em;display: flex">
+                    <div class="col-xs-1 excol3">
+                        <div class="src4_model">Mixture</div>
+                        <img class="spec"
+                             src="../estimated_demo/hWCkCSO8h9I_0_4_to_0_45/mix.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/hWCkCSO8h9I_0_4_to_0_45/mix.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr [1]</div>
+                        <img class="spec"
+                             src="../estimated_demo/hWCkCSO8h9I_0_4_to_0_45/y-net-mr7.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/hWCkCSO8h9I_0_4_to_0_45/y-net-mr7.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr-V (Ours)</div>
+                        <img class="spec"
+                             src="../estimated_demo/hWCkCSO8h9I_0_4_to_0_45/vocalist.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/hWCkCSO8h9I_0_4_to_0_45/vocalist.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br></br>
+
+<div class="row" style="padding-bottom: 1em">
+    <div class="column" style="padding-left: 1em; padding-right: 1em">
+        <h4>Good Vibrations Female</h4>
+    </div>
+    <div class="column" style="padding-left: 1em">
+        <div class="videoplay" videoid="#gvf">
+            <button type="button" class="btn btn-outline-primary">Play</button>
+        </div>
+    </div>
+    <div class="column">
+        <div class="col-sm-3 videostop" videoid="#gvf">
+            <button type="button" class="btn btn-outline-primary">Stop</button>
+        </div>
+    </div>
+</div>
+<iframe id="gvf" class="gvf_video"
+        width="100%" height="345"
+        src="https://www.youtube.com/embed/6Ws1WKA4z2k?start=35&end=47&showinfo=0&controls=0&enablejsapi=1&disablekb=1"
+        title="Good Vibrations Female" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</br>
+<div class="row">
+    <div class="border">
+        <div class="col">
+            <h5>Target Voice: Lead voice (center)</h5>
+        </div>
+        <div style="display: flex">
+            <div class="column" style="padding-left:0.9em;display: flex">
+                <div style="padding-top: 0.5em;display: flex">
+                    <div class="col-xs-1 excol3">
+                        <div class="src4_model">Mixture</div>
+                        <img class="spec"
+                             src="../estimated_demo/6Ws1WKA4z2k_0_35_to_0_48/mix.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/6Ws1WKA4z2k_0_35_to_0_48/mix.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr [1]</div>
+                        <img class="spec"
+                             src="../estimated_demo/6Ws1WKA4z2k_0_35_to_0_48/y-net-mr7.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/6Ws1WKA4z2k_0_35_to_0_48/y-net-mr7.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 excol3">
+                        <div style="padding-left: 80px">Y-Net-mr-V (Ours)</div>
+                        <img class="spec"
+                             src="../estimated_demo/6Ws1WKA4z2k_0_35_to_0_48/vocalist.png">
+                        <div class="col-xs-1 excol3">
+                            <audio class="src4audio"
+                                   src="../estimated_demo/6Ws1WKA4z2k_0_35_to_0_48/vocalist.mp3"
+                                   controls=""></audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br></br>
+
+<div class="row">
+    <h3 class="col-sm-4" style="display: inline-block">References</h3>
+</div>
+
+<p class="lead mb-0" align="justify">
+
+    [1] J. F. Montesinos, V. S. Kadandale, and G. Haro, “A cappella: Audio-visual Singing Voice Separation,” in BMVC, 2021.
+    </br>
+
+</p>
